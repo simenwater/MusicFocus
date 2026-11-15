@@ -1,0 +1,54 @@
+{
+  "limits": [
+    {
+      "threshold": 0.006,
+      "negativeRatio": 0.55,
+      "digitRatio": 0.45
+    },
+    {
+      "threshold": 0.006,
+      "negativeRatio": 0.45,
+      "digitRatio": 0.9
+    },
+    {
+      "threshold": 0.006,
+      "negativeRatio": 0.85,
+      "digitRatio": 0.45
+    },
+    {
+      "threshold": 0.003,
+      "negativeRatio": 0.85,
+      "digitRatio": 0.75
+    },
+    {
+      "threshold": 0.002,
+      "negativeRatio": 0.55,
+      "digitRatio": 0.45
+    },
+    {
+      "threshold": 0.01,
+      "negativeRatio": 0.85,
+      "digitRatio": 0.75
+    },
+    {
+      "threshold": 0.003,
+      "negativeRatio": 0.15,
+      "digitRatio": 0.45
+    },
+    {
+      "threshold": 0.002,
+      "negativeRatio": 0.85,
+      "digitRatio": 0.75
+    },
+    {
+      "threshold": 0.015,
+      "negativeRatio": 0.85,
+      "digitRatio": 0.45
+    },
+    {
+      "threshold": 0.01,
+      "negativeRatio": 0.85,
+      "digitRatio": 0.6
+    }
+  ]
+}

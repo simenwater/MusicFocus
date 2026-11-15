@@ -1,0 +1,16 @@
+{
+  "title": "METRONOME 05.WAV",
+  "creator": "OleSouWester",
+  "source": "https://freesound.org/people/OleSouWester/sounds/474031/",
+  "license": "CC0 1.0",
+  "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "previewSource": "https://cdn.freesound.org/previews/474/474031_5541021-hq.mp3",
+  "retrieved": "2026-10-30",
+  "derivedFile": "MetronomeMechanical.wav",
+  "changes": {
+    "previewToMonoSampleRate": 44100,
+    "startSeconds": 2.6551020408163266,
+    "durationSeconds": 0.08,
+    "processing": "Removed tail DC mean, soft peak compression (drive 6), short edge fades, normalized peak 0.95. No added noise or oscillator."
+  }
+}

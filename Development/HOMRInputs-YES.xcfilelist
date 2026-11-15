@@ -1,0 +1,7 @@
+$(SRCROOT)/Development/ScoreRecognitionModels/HOMR-LICENSE.txt
+$(SRCROOT)/Development/ScoreRecognitionModels/YDP-GrandPiano-LICENSE.txt
+$(SRCROOT)/Development/ScoreRecognitionModels/YDP-GrandPiano.sf2
+$(SRCROOT)/Development/ScoreRecognitionModels/decoder.onnx
+$(SRCROOT)/Development/ScoreRecognitionModels/encoder.onnx
+$(SRCROOT)/Development/ScoreRecognitionModels/segnet.onnx
+$(SRCROOT)/Development/ScoreRecognitionModels/vocabulary.json

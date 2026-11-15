@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80B75A792D96460F009807E8 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 80B75A782D96460F009807E8 /* SwiftKeychainWrapper */; };
+		F01200000000000000000001 /* onnxruntime in Frameworks */ = {isa = PBXBuildFile; productRef = F01200000000000000000002 /* onnxruntime */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		801EB2692D7AB48D00BBDB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801EB2502D7AB48B00BBDB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801EB2572D7AB48B00BBDB64;
+			remoteInfo = MusicFocus;
+		};
+		801EB2732D7AB48D00BBDB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801EB2502D7AB48B00BBDB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801EB2572D7AB48B00BBDB64;
+			remoteInfo = MusicFocus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		801EB2582D7AB48B00BBDB64 /* MusicFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		801EB2682D7AB48D00BBDB64 /* MusicFocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicFocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		801EB2722D7AB48D00BBDB64 /* MusicFocusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicFocusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01200000000000000000005 /* MusicFocus.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MusicFocus.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		80997BA32D96EDED00D3AB50 /* Exceptions for "MusicFocus" folder in "MusicFocus" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				Resources/MusicFocus.storekit,
+			);
+			target = 801EB2572D7AB48B00BBDB64 /* MusicFocus */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		801EB25A2D7AB48B00BBDB64 /* MusicFocus */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				80997BA32D96EDED00D3AB50 /* Exceptions for "MusicFocus" folder in "MusicFocus" target */,
+			);
+			path = MusicFocus;
+			sourceTree = "<group>";
+		};
+		801EB26B2D7AB48D00BBDB64 /* MusicFocusTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MusicFocusTests;
+			sourceTree = "<group>";
+		};
+		801EB2752D7AB48D00BBDB64 /* MusicFocusUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MusicFocusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		801EB2552D7AB48B00BBDB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B75A792D96460F009807E8 /* SwiftKeychainWrapper in Frameworks */,
+				F01200000000000000000001 /* onnxruntime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801EB2652D7AB48D00BBDB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801EB26F2D7AB48D00BBDB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		801EB24F2D7AB48B00BBDB64 = {
+			isa = PBXGroup;
+			children = (
+				F01200000000000000000005 /* MusicFocus.xcconfig */,
+				801EB25A2D7AB48B00BBDB64 /* MusicFocus */,
+				801EB26B2D7AB48D00BBDB64 /* MusicFocusTests */,
+				801EB2752D7AB48D00BBDB64 /* MusicFocusUITests */,
+				801EB2592D7AB48B00BBDB64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		801EB2592D7AB48B00BBDB64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801EB2582D7AB48B00BBDB64 /* MusicFocus.app */,
+				801EB2682D7AB48D00BBDB64 /* MusicFocusTests.xctest */,
+				801EB2722D7AB48D00BBDB64 /* MusicFocusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		801EB2572D7AB48B00BBDB64 /* MusicFocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801EB27C2D7AB48D00BBDB64 /* Build configuration list for PBXNativeTarget "MusicFocus" */;
+			buildPhases = (
+				801EB2542D7AB48B00BBDB64 /* Sources */,
+				801EB2552D7AB48B00BBDB64 /* Frameworks */,
+				801EB2562D7AB48B00BBDB64 /* Resources */,
+				F01200000000000000000004 /* Package optional HOMR resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				801EB25A2D7AB48B00BBDB64 /* MusicFocus */,
+			);
+			name = MusicFocus;
+			packageProductDependencies = (
+				80B75A782D96460F009807E8 /* SwiftKeychainWrapper */,
+				F01200000000000000000002 /* onnxruntime */,
+			);
+			productName = MusicFocus;
+			productReference = 801EB2582D7AB48B00BBDB64 /* MusicFocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		801EB2672D7AB48D00BBDB64 /* MusicFocusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801EB27F2D7AB48D00BBDB64 /* Build configuration list for PBXNativeTarget "MusicFocusTests" */;
+			buildPhases = (
+				801EB2642D7AB48D00BBDB64 /* Sources */,
+				801EB2652D7AB48D00BBDB64 /* Frameworks */,
+				801EB2662D7AB48D00BBDB64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801EB26A2D7AB48D00BBDB64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				801EB26B2D7AB48D00BBDB64 /* MusicFocusTests */,
+			);
+			name = MusicFocusTests;
+			packageProductDependencies = (
+			);
+			productName = MusicFocusTests;
+			productReference = 801EB2682D7AB48D00BBDB64 /* MusicFocusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		801EB2712D7AB48D00BBDB64 /* MusicFocusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801EB2822D7AB48D00BBDB64 /* Build configuration list for PBXNativeTarget "MusicFocusUITests" */;
+			buildPhases = (
+				801EB26E2D7AB48D00BBDB64 /* Sources */,
+				801EB26F2D7AB48D00BBDB64 /* Frameworks */,
+				801EB2702D7AB48D00BBDB64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801EB2742D7AB48D00BBDB64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				801EB2752D7AB48D00BBDB64 /* MusicFocusUITests */,
+			);
+			name = MusicFocusUITests;
+			packageProductDependencies = (
+			);
+			productName = MusicFocusUITests;
+			productReference = 801EB2722D7AB48D00BBDB64 /* MusicFocusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		801EB2502D7AB48B00BBDB64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					801EB2572D7AB48B00BBDB64 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					801EB2672D7AB48D00BBDB64 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 801EB2572D7AB48B00BBDB64;
+					};
+					801EB2712D7AB48D00BBDB64 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 801EB2572D7AB48B00BBDB64;
+					};
+				};
+			};
+			buildConfigurationList = 801EB2532D7AB48B00BBDB64 /* Build configuration list for PBXProject "MusicFocus" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 801EB24F2D7AB48B00BBDB64;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				80B75A772D96460F009807E8 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+				F01200000000000000000003 /* XCRemoteSwiftPackageReference "onnxruntime-swift-package-manager" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 801EB2592D7AB48B00BBDB64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				801EB2572D7AB48B00BBDB64 /* MusicFocus */,
+				801EB2672D7AB48D00BBDB64 /* MusicFocusTests */,
+				801EB2712D7AB48D00BBDB64 /* MusicFocusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		801EB2562D7AB48B00BBDB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801EB2662D7AB48D00BBDB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801EB2702D7AB48D00BBDB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F01200000000000000000004 /* Package optional HOMR resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/Development/HOMRInputs-$(MUSICFOCUS_INCLUDE_HOMR).xcfilelist",
+			);
+			inputPaths = (
+				"$(SRCROOT)/Scripts/package-homr.sh",
+				"$(MUSICFOCUS_HOMR_INPUT)",
+			);
+			name = "Package optional HOMR resources";
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/ScoreRecognitionModels",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/ScoreRecognitionModels/HOMR-LICENSE.txt",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/ScoreRecognitionModels/YDP-GrandPiano-LICENSE.txt",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/ScoreRecognitionModels/YDP-GrandPiano.sf2",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/ScoreRecognitionModels/decoder.onnx",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/ScoreRecognitionModels/encoder.onnx",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/ScoreRecognitionModels/segnet.onnx",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/ScoreRecognitionModels/vocabulary.json",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$SCRIPT_INPUT_FILE_0\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801EB2542D7AB48B00BBDB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801EB2642D7AB48D00BBDB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801EB26E2D7AB48D00BBDB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		801EB26A2D7AB48D00BBDB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801EB2572D7AB48B00BBDB64 /* MusicFocus */;
+			targetProxy = 801EB2692D7AB48D00BBDB64 /* PBXContainerItemProxy */;
+		};
+		801EB2742D7AB48D00BBDB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801EB2572D7AB48B00BBDB64 /* MusicFocus */;
+			targetProxy = 801EB2732D7AB48D00BBDB64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		801EB27A2D7AB48D00BBDB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01200000000000000000005 /* MusicFocus.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8TR74Y3A9Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited) $(MUSICFOCUS_HOMR_FLAG)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		801EB27B2D7AB48D00BBDB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01200000000000000000005 /* MusicFocus.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8TR74Y3A9Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) $(MUSICFOCUS_HOMR_FLAG)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		801EB27D2D7AB48D00BBDB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MusicFocus/MusicFocus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicFocus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicFocus/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is used to record performance videos.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "MusicFocus uses the local network and Bluetooth to find a nearby iPad and sync score annotations directly between the two devices.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MusicFocus uses the microphone to detect practice sounds and, when you choose Record, save voice notes on your score. Audio notes stay on this device unless you export them.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access is used to select sheet music images.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FeuxFollets.MusicFocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		801EB27E2D7AB48D00BBDB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MusicFocus/MusicFocus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicFocus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicFocus/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is used to record performance videos.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "MusicFocus uses the local network and Bluetooth to find a nearby iPad and sync score annotations directly between the two devices.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MusicFocus uses the microphone to detect practice sounds and, when you choose Record, save voice notes on your score. Audio notes stay on this device unless you export them.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access is used to select sheet music images.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FeuxFollets.MusicFocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		801EB2802D7AB48D00BBDB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FeuxFollets.MusicFocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicFocus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicFocus";
+			};
+			name = Debug;
+		};
+		801EB2812D7AB48D00BBDB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FeuxFollets.MusicFocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicFocus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicFocus";
+			};
+			name = Release;
+		};
+		801EB2832D7AB48D00BBDB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FeuxFollets.MusicFocusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MusicFocus;
+			};
+			name = Debug;
+		};
+		801EB2842D7AB48D00BBDB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FeuxFollets.MusicFocusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MusicFocus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801EB2532D7AB48B00BBDB64 /* Build configuration list for PBXProject "MusicFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801EB27A2D7AB48D00BBDB64 /* Debug */,
+				801EB27B2D7AB48D00BBDB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801EB27C2D7AB48D00BBDB64 /* Build configuration list for PBXNativeTarget "MusicFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801EB27D2D7AB48D00BBDB64 /* Debug */,
+				801EB27E2D7AB48D00BBDB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801EB27F2D7AB48D00BBDB64 /* Build configuration list for PBXNativeTarget "MusicFocusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801EB2802D7AB48D00BBDB64 /* Debug */,
+				801EB2812D7AB48D00BBDB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801EB2822D7AB48D00BBDB64 /* Build configuration list for PBXNativeTarget "MusicFocusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801EB2832D7AB48D00BBDB64 /* Debug */,
+				801EB2842D7AB48D00BBDB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80B75A772D96460F009807E8 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		F01200000000000000000003 /* XCRemoteSwiftPackageReference "onnxruntime-swift-package-manager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/microsoft/onnxruntime-swift-package-manager";
+			requirement = {
+				kind = exactVersion;
+				version = 1.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80B75A782D96460F009807E8 /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80B75A772D96460F009807E8 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+		F01200000000000000000002 /* onnxruntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F01200000000000000000003 /* XCRemoteSwiftPackageReference "onnxruntime-swift-package-manager" */;
+			productName = onnxruntime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 801EB2502D7AB48B00BBDB64 /* Project object */;
+}

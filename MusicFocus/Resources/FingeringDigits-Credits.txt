@@ -1,0 +1,22 @@
+MusicFocus offline fingering recognition — data acknowledgements
+
+The bundled prototype model contains normalized/resampled adaptations of pen
+trajectories from the following datasets. It does not contain user handwriting.
+
+Pen-Based Recognition of Handwritten Digits
+E. Alpaydin and F. Alimoglu (1996), UCI Machine Learning Repository.
+https://doi.org/10.24432/C5MG6K
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+UJI Pen Characters (Version 2)
+F. Prat, M. Castro, D. Llorens, A. Marzal and J. Vilar (2008), UCI.
+https://doi.org/10.24432/C5FG8S
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+License: https://creativecommons.org/licenses/by/4.0/
+Changes: coordinate normalization, trajectory resampling, digit/non-digit labels,
+training subset selection, binary encoding, and confidence/rejection calibration.
+The dataset creators do not endorse MusicFocus.
+
+HOMUS was used only for local negative evaluation; its samples and prototypes
+are not included in this app.

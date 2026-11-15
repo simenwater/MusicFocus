@@ -1,0 +1,90 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "6D3F1C2A",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21579001",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Internet Rooms",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "",
+          "displayName" : "互联网房间",
+          "locale" : "zh_Hans"
+        }
+      ],
+      "name" : "Internet Rooms",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "6.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6739001001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Open internet rooms to sync scores with a teacher or student anywhere.",
+              "displayName" : "Internet Rooms (Yearly)",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "开设互联网房间，与异地的老师或学生同步乐谱。",
+              "displayName" : "互联网房间（年度）",
+              "locale" : "zh_Hans"
+            }
+          ],
+          "productID" : "com.FeuxFollets.MusicFocus.rooms.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Internet Rooms Yearly",
+          "subscriptionGroupID" : "21579001",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

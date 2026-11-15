@@ -1,0 +1,19 @@
+{
+  "name": "musicfocus-sync-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pairs two MusicFocus devices by room code and forwards their score-sync messages.",
+  "type": "module",
+  "main": "relay.mjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node relay.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@apple/app-store-server-library": "3.1.0",
+    "ws": "^8.18.0"
+  }
+}
