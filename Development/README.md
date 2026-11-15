@@ -24,6 +24,10 @@ MUSICFOCUS_DEFAULT_Debug = YES
 
 Run the normal **MusicFocus** scheme. Open a score and tap **Audition (Preview)** in the reader toolbar or the compact page menu. The packaging script reports the name of any missing resource. For an explicit build-time override, pass `MUSICFOCUS_INCLUDE_HOMR=YES` to xcodebuild. Review the rights for any distribution containing the checkpoints. The training sources associated with 509 and the availability of the weights are documented in the [upstream training log](https://github.com/liebharc/homr/blob/v0.7.1/Training.md#run-509); the published source supplies no separate clearance for downstream distribution of those weights.
 
+### Using the 509 checkpoints in a distributed app
+
+HOMR's [v0.7.1 license FAQ](https://github.com/liebharc/homr/blob/v0.7.1/LICENSE_FAQ.md) describes both code and weights as AGPL-3.0. It records no explicit license at the original GrandStaff download and identifies different notices on the GrandStaff and Camera-PrIMuS mirrors. It leaves open how training-data terms affect the resulting weights. An App Store distributor must also consider Apple's distribution terms alongside the AGPL. Publishing this client makes its source available; it does not resolve those model or distribution questions.
+
 ## Verify the changes
 
 Run **MusicFocusTests/ScoreSystemGroupingTests** for generated two-sided-print and mixed-staff cases. In a recognition-enabled test, `TEST_RUNNER_SCORE_GROUP_NOISE_PDF` supplies a local copy of the two-page regression scan and `TEST_RUNNER_SCORE_GROUP_CONTROL_PDF` supplies a clean one-system control. Those optional checks use the specific layouts described in the tests. **ScoreMeasureReviewTests** covers contextual re-reading in Debug. Recognition reads the original PDF layer, while annotation state and playback caches remain separate.

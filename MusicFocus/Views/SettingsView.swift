@@ -212,6 +212,8 @@ struct SettingsView: View {
                         }
                         Link("Privacy Policy".localized,
                              destination: URL(string: "https://feuxfollets.top/apps/MusicFocus/privacy.html")!)
+                        Link("Source Code and Licenses".localized,
+                             destination: URL(string: "https://github.com/simenwater/MusicFocus")!)
                         Button(action: {
                             showAboutSheet = true
                         }) {

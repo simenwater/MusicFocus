@@ -11241,6 +11241,22 @@
         }
       }
     },
+    "Source Code and Licenses" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source Code and Licenses"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "源代码与许可证"
+          }
+        }
+      }
+    },
     "Settings" : {
       "comment" : "Settings screen title",
       "extractionState" : "stale",
